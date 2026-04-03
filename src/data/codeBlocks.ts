@@ -15273,7 +15273,7 @@ class IntegrityChecker(private val context: Context) {
         }
 
         // 4. /data/local/tmp 쓰기 가능 여부
-        val testFile = java.io.File("/data/local/tmp/integrity_test_\\${System.currentTimeMillis()}")
+        val testFile = java.io.File("/data/local/tmp/integrity_test_\${System.currentTimeMillis()}")
         try {
             testFile.createNewFile()
             testFile.delete()
