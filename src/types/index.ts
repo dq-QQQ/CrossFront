@@ -1,7 +1,7 @@
 export type Platform = 'ios' | 'android' | 'web';
 export type Persona = 'android' | 'web';
 export type ChapterStatus = 'available' | 'coming-soon' | 'draft';
-export type LinkType = 'docs' | 'video' | 'blog';
+export type LinkType = 'docs' | 'video' | 'blog' | 'github';
 
 export interface ExternalLink {
   title: string;
